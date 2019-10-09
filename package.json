@@ -1,0 +1,21 @@
+{
+  "name": "upcoming-events-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "bin/www",
+    "start:dev": "nodemon --inspect=9230 bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "express-async-router": "^0.1.12",
+    "express-validation": "^1.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
